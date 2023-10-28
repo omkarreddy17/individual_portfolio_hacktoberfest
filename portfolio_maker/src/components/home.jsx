@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './style.css';
 const Home = () => {
   return (
+    <div>
     <div className="cards-list">
       <div className="card 1">
         <div className="card_image">
@@ -32,6 +33,7 @@ const Home = () => {
           <p>Card Title</p>
         </div>
       </div> */}
+    </div>
     </div>
   );
 };
