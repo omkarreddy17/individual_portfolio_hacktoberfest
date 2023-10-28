@@ -14,7 +14,7 @@ const Arbaz = () => {
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
             </button>
-            <a className="navbar-brand" href="https://codepen.io/jvjijith/pen/woMywq">Yatharth Mulani</a>
+            <a className="navbar-brand" href="https://codepen.io/jvjijith/pen/woMywq">Arbazkhan Pathan</a>
           </div>
 
           {/* Navigation Toggling */}
@@ -33,7 +33,7 @@ const Arbaz = () => {
       <div id="home" className="text-center">
         <div className="layer">
           <div className="content">
-            <h1>Hi I'm <strong><span>Yatharth Mulani</span></strong></h1>
+            <h1>Hi I'm <strong><span>Arbazkhan Pathan</span></strong></h1>
             <p className="lead">This is my portfolio that I coded.</p>
             <a href="#about" className="fa fa-angle-down scroll-nav"></a>
           </div>
@@ -50,12 +50,12 @@ const Arbaz = () => {
           <div className="gap"></div>
           <div className="row">
             <div className="col-md-6">
-              <p>Hi there, I’m <strong>Yatharth</strong>.</p>
-              <p>My passion for computer science was from my childhood but ignited more in covid time. So I moved towards BCA. Under my college, I have attended many workshops of Python and Java, and many more. My hobby is to write poems. I published my first book "Dil Se Kalam Tak," which is available on Amazon and Flipkart.</p>
+              <p>Hi there, I’m <strong>Arbazkhan</strong>.</p>
+              <p>My passion for computer science was from my childhood and it getting increasing day by day. I am passionately learning about Machine Learning and Genrative AI.</p>
             </div>
             <div className="col-md-6">
               {/* Image */}
-              <img src="path_to_your_image.jpg" alt="Yatharth Mulani" />
+              <img src="https://avatars.githubusercontent.com/u/74857530?v=4" alt="Arbazkhan Pathan" />
             </div>
           </div>
           <div className="row">
@@ -72,7 +72,7 @@ const Arbaz = () => {
       </div>
 
       {/* Works Section */}
-      <div id="portfolio" className="text-center">
+      {/* <div id="portfolio" className="text-center">
         <div className="container">
           <div className="section-title center">
             <h2>My WORKS</h2>
@@ -80,7 +80,7 @@ const Arbaz = () => {
           </div>
           <div className="gap"></div>
           <section id="works" className="container">
-            <ul className="portfolio-items col-4">
+            <ul className="portfolio-items col-4"> */}
               {/* Portfolio items go here */}
               {/* Example item:
               <li className="portfolio-item apps">
@@ -93,10 +93,10 @@ const Arbaz = () => {
                 </div>
               </li>
               */}
-            </ul>
+            {/* </ul>
           </section>
         </div>
-      </div>
+      </div> */}
 
       {/* Contact Section */}
       <div id="contact" className="text-center">
@@ -110,8 +110,8 @@ const Arbaz = () => {
           <div id="contact-form">
             <div id="message"></div>
             <form method="post" action="php/contact.php" name="contactform" id="contactform">
-              <input name="name" type="text" id="name" className="inputForm2" placeholder="Yatharth Mulani" />
-              <input name="email" type="text" id="email" placeholder="yatharthmulani78@gmail.com" />
+              <input name="name" type="text" id="name" className="inputForm2" placeholder="Arbazkhan Pathan" />
+              <input name="email" type="text" id="email" placeholder="arbazkhanpathan0348@gmail.com" />
               <textarea name="comments" id="comments" placeholder="Message"></textarea>
               <input type="submit" className="send_message transition" id="submit" value="Send Message" />
             </form>
@@ -129,7 +129,7 @@ const Arbaz = () => {
             <div className="social-icons">
               <ul>
                 <li>
-                  <a className="Linkedin" href="https://www.linkedin.com/in/yatharth-mulani-827524201">
+                  <a className="Linkedin" href="https://www.linkedin.com/in/arbazkhan-pathan-a717691b8/">
                     <i className="fa-linked icon-sm"></i>
                   </a>
                 </li>
@@ -141,10 +141,10 @@ const Arbaz = () => {
           <div className="container">
             <div className="row">
               <div className="col-sm-6">
-                <p>&copy; 2023 Yatharth Mulani</p>
+                <p>&copy; 2023 Arbazkhan Pathan</p>
               </div>
               <div className="col-sm-6">
-                <p className="pull-right">Developed by Yatharth Mulani</p>
+                <p className="pull-right">Developed by Arbazkhan Pathan</p>
               </div>
             </div>
           </div>
