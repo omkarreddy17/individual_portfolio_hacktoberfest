@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './style.css';
 const Home = () => {
   return (
     <div className="cards-list">
       <div className="card 1">
         <div className="card_image">
-          <img src="https://i.redd.it/b3esnz5ra34y.jpg" alt="Card 1" />
+          <img src="https://avatars.githubusercontent.com/u/97976395?v=4" alt="Card 1" />
         </div>
         <div className="card_title title-white">
           <p>Omkar</p>
@@ -13,12 +14,14 @@ const Home = () => {
       </div>
 
       <div className="card 3">
-        <div className="card_image">
-          <img src="https://media.giphy.com/media/10SvWCbt1ytWCc/giphy.gif" alt="Card 3" />
-        </div>
-        <div className="card_title">
-          <p>Arbazkhan Pathan</p>
-        </div>
+        <Link to="/arbaz"> {/* Wrap the card content with Link */}
+          <div className="card_image">
+            <img src="https://avatars.githubusercontent.com/u/74857530?v=4" alt="Card 3" />
+          </div>
+          <div className="card_title">
+            <p>Arbazkhan Pathan</p>
+          </div>
+        </Link>
       </div>
 
       {/* <div className="card 4">

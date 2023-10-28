@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './components/home'; // Import the Home component from the components folder
+import Arbaz from './components/arbaz'; // Import the Home component from the components folder
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         {/* Your navigation can go here */}
         <Switch>
           <Route path="/" exact component={Home} /> {/* Use the Home component */}
+          <Route path="/arbaz" component={Arbaz} />
           {/* Define other routes and components as needed */}
         </Switch>
       </div>
