@@ -25,14 +25,14 @@ const Home = () => {
         </Link>
       </div>
 
-      {/* <div className="card 4">
+      <div className="card 4">
         <div className="card_image">
-          <img src="https://media.giphy.com/media/LwIyvaNcnzsD6/giphy.gif" alt="Card 4" />
+          <img src="https://avatars.githubusercontent.com/u/99282709?v=4" alt="Card 4" />
         </div>
         <div className="card_title title-black">
-          <p>Card Title</p>
+          <p>Vinayak Hingrajiya</p>
         </div>
-      </div> */}
+      </div>
     </div>
     </div>
   );
