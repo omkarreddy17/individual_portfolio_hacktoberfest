@@ -26,12 +26,14 @@ const Home = () => {
       </div>
 
       <div className="card 4">
+      <Link to="/vinayak">
         <div className="card_image">
           <img src="https://avatars.githubusercontent.com/u/99282709?v=4" alt="Card 4" />
         </div>
         <div className="card_title title-black">
           <p>Vinayak Hingrajiya</p>
         </div>
+        </Link>
       </div>
     </div>
     </div>
