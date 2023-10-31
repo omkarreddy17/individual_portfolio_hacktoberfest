@@ -7,7 +7,8 @@
   }
   
   p{
-    color: black
+    color:rgb(11 236 215);
+    text-decoration: none;
   }
   .card {
     margin: 30px auto;
@@ -27,9 +28,10 @@
   
   .card .card_image img {
     width: inherit;
-    height: inherit;
-    border-radius: 40px;
+    /* height: inherit; */
+    /* border-radius: 40px; */
     object-fit: cover;
+    height: 19rem;
   }
   
   .card .card_title {
